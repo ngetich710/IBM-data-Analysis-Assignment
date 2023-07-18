@@ -73,7 +73,7 @@ def compute_data_choice_2(df):
 app.layout = html.Div(children=[ 
                                 # TASK1: Add title to the dashboard
                                 # Enter your code below. Make sure you have correct formatting.
-                                html.H1('US Domestic Airline Flights Performance',style={'textAling': 'center','color':'#503D36','font-size':24}),
+                                html.H2('US Domestic Airline Flights Performance',style={'textAlign': 'center','color':'#503D36','font-size':24}),
                                 # REVIEW2: Dropdown creation
                                 # Create an outer division 
                                 html.Div([
@@ -134,11 +134,11 @@ app.layout = html.Div(children=[
 # Callback function definition
 # TASK4: Add 5 ouput components
 # Enter your code below. Make sure you have correct formatting.
-@app.callback( [[Output(component_id='plot1', component_property='children'),
+@app.callback( [Output(component_id='plot1', component_property='children'),
                  Output(component_id='plot2', component_property='children'),
                  Output(component_id='plot3', component_property='children'),
                  Output(component_id='plot4', component_property='children'),
-                 Output(component_id='plot5', component_property='children')]],
+                 Output(component_id='plot5', component_property='children')],
                [Input(component_id='input-type', component_property='value'),
                 Input(component_id='input-year', component_property='value')],
                # REVIEW4: Holding output state till user enters all the form information. In this case, it will be chart type and year
