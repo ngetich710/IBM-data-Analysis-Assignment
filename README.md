@@ -28,7 +28,7 @@ Monthly average security delay by reporting airline for the given year.
 Monthly average late aircraft delay by reporting airline for the given year.
 NOTE: You have worked created the same dashboard components in Flight Delay Time Statistics Dashboard section. We will be reusing the same.
 
-REQUIREMENTS TO CREATE THE EXPECTED RESULTS
+# REQUIREMENTS TO CREATE THE EXPECTED RESULTS
 Two dropdown menus: For choosing report type and year
 Each dropdown will be designed as follows:
 An outer division with two inner divisions (as shown in the expected layout)
